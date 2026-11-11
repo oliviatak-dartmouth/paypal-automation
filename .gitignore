@@ -1,0 +1,17 @@
+# Secrets: never commit these
+credentials.json
+*.json
+config.py
+
+# Real financial data
+paypal_csvs/
+processed_csvs/
+
+# Environment / tooling
+venv/
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.claude/
+.DS_Store
