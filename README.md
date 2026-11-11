@@ -4,6 +4,8 @@ A Python script that turns monthly PayPal CSV exports into organized Google Shee
 
 I built this during an internship to replace a manual process: a monthly PayPal export was being retyped into a spreadsheet by hand, which was slow and error-prone. All names, amounts and emails in this repo are fake sample data.
 
+![Example output](docs/sheet-preview.png)
+
 ## Features
 
 - Pairs each outgoing payment row with its matching **General Card Deposit** row (via `Reference Txn ID`)
